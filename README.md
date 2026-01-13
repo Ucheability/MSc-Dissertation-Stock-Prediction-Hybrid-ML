@@ -90,6 +90,9 @@ Before model development, an extensive EDA was conducted to understand the under
 
 ## 10. Key Insights
 
+* **Hybrid Advantage:** Combining LSTM and Random Forest provided more stable predictions.
+* **Sentiment Value:** Sentiment analysis acted as a leading indicator for price shifts.
+* **Robustness:** The model remained accurate across different tech stocks (Google, Meta, NVIDIA).
 ## 11. Limitations
 
 ## 12. Recommendations and Future Work
