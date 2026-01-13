@@ -16,9 +16,10 @@ The central challenge in financial forecasting is that stock prices are highly v
 ## 3. Aim and Objectives
 
 **Aim:** The primary aim of this project is to develop an integrated machine learning model that incorporates sentiment analysis to predict the stock prices of Google, Meta, and NVIDIA, while conducting a cross-sector analysis of these leading technology firms.
+
 **Objectives:**
 
-**- Literature Review:** Conduct an extensive review of current machine learning applications in financial analysis.
+- **Literature Review:** Conduct an extensive review of current machine learning applications in financial analysis.
 
 **- Data Acquisition:** Gather and clean a 10-year historical dataset (2013–2023) for the target companies from Yahoo Finance.
 
