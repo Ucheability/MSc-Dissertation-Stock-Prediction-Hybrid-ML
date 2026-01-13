@@ -81,6 +81,10 @@ Before model development, an extensive EDA was conducted to understand the under
 
 - **Time-Series Visualization:**
     - Daily closing prices were plotted over a 10-year period (2013–2023) to identify long-term trends, cyclical patterns,         and periods of high volatility.
+    - 
+![Price Trends Over Time](Price%20over%20Time.jpg)
+*Figure 1: 10-Year historical closing price trends for Google, Meta, and NVIDIA.*
+
 
 ## 8. Model Development
 
