@@ -51,40 +51,35 @@ The research followed a structured data science lifecycle, integrating quantitat
     
     - Data was normalized using MinMaxScaler to fit a range of [0, 1] for efficient neural network training.
 
-**- Phase 2: Sentiment Engineering:**
+- **Phase 2: Sentiment Engineering:**
     - Financial news headlines and market reports were processed using Natural Language Processing (NLP).
-    - Sentiment scores were generated and integrated as a separate feature to capture market "mood" alongside technical indicators.
+    - Sentiment scores were generated and integrated as a separate feature to capture market "mood"
+      alongside technical indicators.
 
-**- Phase 3: Hybrid Model Architecture:** 
+- **Phase 3: Hybrid Model Architecture:** 
     - LSTM (Long Short-Term Memory): Employed to capture long-term temporal dependencies and patterns in time-series data.
     - Random Forest (RF): Used as an ensemble learner to handle non-linear relationships and provide robust feature   
       importance.
 
-**- Phase 4: Evaluation:**
-
+- **Phase 4: Evaluation:**
     - Models were tested on a separate test set (20% of data) using MSE, RMSE, and R-squared metrics to validate accuracy
   
 ## 6. Tools and Technologies
 
 This project was built entirely in Python using industry-standard libraries for Data Science and Deep Learning:
 
-  **- Programming Language:** Python 3.x.
-  
-  **- Deep Learning:** TensorFlow & Keras (for building the LSTM architecture).
-  
-  **- Machine Learning:** Scikit-learn (for Random Forest Regressor and data scaling).
-  
-  **- Data Manipulation:** Pandas and NumPy.
-  
-  **- Data Visualization:** Matplotlib and Seaborn (for EDA and performance plots).
-  
-  **- API / Data Source:** Yahoo Finance (yfinance).
+  - **Programming Language:** Python 3.x.
+  - **Deep Learning:** TensorFlow & Keras (for building the LSTM architecture).
+  - **Machine Learning:** Scikit-learn (for Random Forest Regressor and data scaling).
+  - **Data Manipulation:** Pandas and NumPy.
+  - **Data Visualization:** Matplotlib and Seaborn (for EDA and performance plots).
+  - **API / Data Source:** Yahoo Finance (yfinance).
   
 ## 7. Exploratory Data Analysis (EDA)
 
 Before model development, an extensive EDA was conducted to understand the underlying patterns, trends, and statistical properties of the stock data for Google, Meta, and NVIDIA.
 
-**- Time-Series Visualization:**
+- **Time-Series Visualization:**
     - Daily closing prices were plotted over a 10-year period (2013–2023) to identify long-term trends, cyclical patterns,         and periods of high volatility.
 
 ## 8. Model Development
