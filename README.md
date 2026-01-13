@@ -3,14 +3,18 @@ A hybrid Machine Learning model combining LSTM and Random Forest to forecast sto
 # Forecasting Stock Price Trends Using Sentiment Analysis and Machine Learning
 
 ## 1. Introduction
+
 Accurate stock price forecasting remains a significant challenge in dynamic financial markets due to high volatility, non-linear relationships, and the influence of both quantitative and behavioural factors. Traditional statistical models often struggle to capture these complex temporal dependencies, limiting their effectiveness in real-world investment decision-making.
 This MSc project presents an integrated forecasting approach that combines advanced machine learning techniques with Natural Language Processing (NLP)-based sentiment analysis. By leveraging historical price data alongside qualitative market sentiment, the study aims to develop a more holistic understanding of stock price movements.
 The research focuses on three major technology firms—Google (Alphabet Inc.), Meta, and NVIDIA—and explores how hybrid modelling techniques, including Long Short-Term Memory (LSTM) networks and Random Forest algorithms, can enhance predictive accuracy and reliability. The resulting framework is designed to support more informed financial analysis, risk assessment, and strategic decision-making.
 
 
 ## 2. Problem Statement
+
 The central challenge in financial forecasting is that stock prices are highly volatile and influenced by a vast array of interconnected factors. Conventional statistical models frequently struggle to capture these intricate, non-linear dependencies, often resulting in inaccurate forecasts. This research addresses the gap by investigating whether combining cutting-edge machine learning techniques with qualitative sentiment analysis can enhance the precision of stock price predictions
+
 ## 3. Aim and Objectives
+
 **Aim:** The primary aim of this project is to develop an integrated machine learning model that incorporates sentiment analysis to predict the stock prices of Google, Meta, and NVIDIA, while conducting a cross-sector analysis of these leading technology firms.
 **Objectives:**
 
@@ -39,7 +43,9 @@ This project utilizes a multi-dimensional dataset to capture both market mechani
 The research followed a structured data science lifecycle, integrating quantitative financial modeling with qualitative sentiment analysis. The process was divided into the following key phases:
 
 **-Phase 1: Data Collection & Preprocessing:** 
-    -Historical stock data (Open, High, Low, Close, Volume) was extracted for Google, Meta, and NVIDIA via the yfinance API.
+
+    - Historical stock data (Open, High, Low, Close, Volume) was extracted for Google, Meta, and NVIDIA via the yfinance API.
+    
     - Data was normalized using MinMaxScaler to fit a range of [0, 1] for efficient neural network training.
 
 **- Phase 2: Sentiment Engineering:**
@@ -51,17 +57,24 @@ The research followed a structured data science lifecycle, integrating quantitat
     - Random Forest (RF): Used as an ensemble learner to handle non-linear relationships and provide robust feature   
       importance.
 
-**- Phase 4: Evaluation:**y
+**- Phase 4: Evaluation:**
+
     - Models were tested on a separate test set (20% of data) using MSE, RMSE, and R-squared metrics to validate accuracy
   
 ## 6. Tools and Technologies
+
 This project was built entirely in Python using industry-standard libraries for Data Science and Deep Learning:
 
   **- Programming Language:** Python 3.x.
+  
   **- Deep Learning:** TensorFlow & Keras (for building the LSTM architecture).
+  
   **- Machine Learning:** Scikit-learn (for Random Forest Regressor and data scaling).
+  
   **- Data Manipulation:** Pandas and NumPy.
+  
   **- Data Visualization:** Matplotlib and Seaborn (for EDA and performance plots).
+  
   **- API / Data Source:** Yahoo Finance (yfinance).
   
 ## 7. Exploratory Data Analysis (EDA)
