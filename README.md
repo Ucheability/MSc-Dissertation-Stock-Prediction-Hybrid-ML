@@ -8,7 +8,6 @@ Accurate stock price forecasting remains a significant challenge in dynamic fina
 This MSc project presents an integrated forecasting approach that combines advanced machine learning techniques with Natural Language Processing (NLP)-based sentiment analysis. By leveraging historical price data alongside qualitative market sentiment, the study aims to develop a more holistic understanding of stock price movements.
 The research focuses on three major technology firms—Google (Alphabet Inc.), Meta, and NVIDIA—and explores how hybrid modelling techniques, including Long Short-Term Memory (LSTM) networks and Random Forest algorithms, can enhance predictive accuracy and reliability. The resulting framework is designed to support more informed financial analysis, risk assessment, and strategic decision-making.
 
-
 ## 2. Problem Statement
 
 The central challenge in financial forecasting is that stock prices are highly volatile and influenced by a vast array of interconnected factors. Conventional statistical models frequently struggle to capture these intricate, non-linear dependencies, often resulting in inaccurate forecasts. This research addresses the gap by investigating whether combining cutting-edge machine learning techniques with qualitative sentiment analysis can enhance the precision of stock price predictions
@@ -21,29 +20,32 @@ The central challenge in financial forecasting is that stock prices are highly v
 
 - **Literature Review:** Conduct an extensive review of current machine learning applications in financial analysis.
 
-**- Data Acquisition:** Gather and clean a 10-year historical dataset (2013–2023) for the target companies from Yahoo Finance.
+- **Data Acquisition:** Gather and clean a 10-year historical dataset (2013–2023) for the target companies from Yahoo Finance.
 
-**- Sentiment Processing:** Employ Natural Language Processing (NLP) to process financial news and categorize sentiment as positive, negative, or neutral.
+- **Sentiment Processing:** Employ Natural Language Processing (NLP) to process financial news and categorize sentiment as positive, negative, or neutral.
 
-**- Hybrid Model Development:** Design and implement a hybrid architecture merging Long Short-Term Memory (LSTM) networks with Random Forest (RF) algorithms.
+- **Hybrid Model Development:** Design and implement a hybrid architecture merging Long Short-Term Memory (LSTM) networks with Random Forest (RF) algorithms.
 
-**- Performance Evaluation:** Assess the integrated model's effectiveness using metrics like MSE, RMSE, MAE, and R-squared, comparing it against standalone models.
+- **Performance Evaluation:** Assess the integrated model's effectiveness using metrics like MSE, RMSE, MAE, and R-squared, comparing it against standalone models.
 
 ## 4. Dataset Description
 
 This project utilizes a multi-dimensional dataset to capture both market mechanics and investor mood:
 
-**- Historical Stock Data:** 10 years of daily data (Jan 2013 – Jan 2023) including Open, High, Low, Close, Adjusted Close, and Volume.
+- **Historical Stock Data:** 10 years of daily data (Jan 2013 – Jan 2023) including Open, High, Low, 
+    Close, Adjusted Close, and Volume.
 
-**- Sentiment Data:** Derived from financial news articles. Due to accessibility hurdles with real-world news archives, an innovative synthetic sentiment dataset was developed to emulate genuine market trends, company-specific events, and economic indicators.
+- **Sentiment Data:** Derived from financial news articles. Due to accessibility hurdles with real-world 
+    news archives, an innovative synthetic sentiment dataset was developed to emulate genuine market trends, 
+    company-specific events, and economic indicators.
 
-**- Target Variable:** The primary feature for prediction is the 'Close' price, shifted by one day to represent the next day's forecasted value.
+- **Target Variable:** The primary feature for prediction is the 'Close' price, shifted by one day to represent the next day's forecasted value.
 
 ## 5. Methodology
 
 The research followed a structured data science lifecycle, integrating quantitative financial modeling with qualitative sentiment analysis. The process was divided into the following key phases:
 
-**-Phase 1: Data Collection & Preprocessing:** 
+- **Phase 1: Data Collection & Preprocessing:** 
 
     - Historical stock data (Open, High, Low, Close, Volume) was extracted for Google, Meta, and NVIDIA via the yfinance API.
     
@@ -83,7 +85,7 @@ This project was built entirely in Python using industry-standard libraries for 
 Before model development, an extensive EDA was conducted to understand the underlying patterns, trends, and statistical properties of the stock data for Google, Meta, and NVIDIA.
 
 **- Time-Series Visualization:**
-    - Daily closing prices were plotted over a 10-year period (2013–2023) to identify long-term trends, cyclical patterns, and periods of high volatility.
+    - Daily closing prices were plotted over a 10-year period (2013–2023) to identify long-term trends, cyclical patterns,         and periods of high volatility.
 
 ## 8. Model Development
 
