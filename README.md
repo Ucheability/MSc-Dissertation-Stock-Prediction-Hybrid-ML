@@ -2,6 +2,9 @@
 A hybrid Machine Learning model combining LSTM and Random Forest to forecast stock trends for Google, Meta, and NVIDIA, integrated with NLP-driven sentiment analysis.
 # Forecasting Stock Price Trends Using Sentiment Analysis and Machine Learning
 
+## 🔗 Quick Links
+- [View Python Implementation](Projec_Codes.ipynb)
+  
 ## 1. Introduction
 
 Accurate stock price forecasting remains a significant challenge in dynamic financial markets due to high volatility, non-linear relationships, and the influence of both quantitative and behavioural factors. Traditional statistical models often struggle to capture these complex temporal dependencies, limiting their effectiveness in real-world investment decision-making.
