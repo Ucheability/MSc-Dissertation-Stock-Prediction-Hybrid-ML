@@ -95,7 +95,7 @@ Before model development, an extensive EDA was conducted to understand the under
 - **Volatility and Volume Analysis:**
 -  Trading volumes were analyzed alongside price changes to detect correlations between market activity and price movements.     The analysis revealed that major price shifts often coincided with spikes in trading volume
 
-  ![Trading Volume Over Time](Trading Volume%20over%20Time.jpg)
+  ![Volume Over Time](Volume%20over%20Time.jpg)
 *Figure 2: 10-Year historical stock Trading Volume over Time for Google, Meta, and NVIDIA.*
 ## 8. Model Development
 
