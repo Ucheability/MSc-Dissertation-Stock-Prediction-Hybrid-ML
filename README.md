@@ -130,6 +130,8 @@ The performance of the hybrid model was evaluated using standard industry metric
 
 - **Cross-Company Comparison:** NVIDIA exhibited the highest volatility, yet the model maintained robust performance, proving the hybrid architecture's adaptability across different tech stocks.
 
+![Model Comparison](Model_Comparison.jjg)
+*Figure 4: Comparison of Model Performance (MSE) across Google, META, and NVIDIA.*
 
 ## 10. Key Insights
 
