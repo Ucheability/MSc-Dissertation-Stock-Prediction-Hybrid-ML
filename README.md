@@ -80,12 +80,23 @@ This project was built entirely in Python using industry-standard libraries for 
 Before model development, an extensive EDA was conducted to understand the underlying patterns, trends, and statistical properties of the stock data for Google, Meta, and NVIDIA.
 
 - **Time-Series Visualization:**
+  
     - Daily closing prices were plotted over a 10-year period (2013–2023) to identify long-term trends, cyclical patterns,         and periods of high volatility.
-    - 
+      
 ![Price Trends Over Time](Price%20over%20Time.jpg)
 *Figure 1: 10-Year historical closing price trends for Google, Meta, and NVIDIA.*
 
+- **Statistical Profiling:**
+    - Summary Statistics: Calculated mean, median, and standard deviation to assess data distribution. For instance,
+      Google's stock showed a mean closing price of approximately $59.52 with a high standard deviation of 34.63, indicating       significant growth and volatility over the decade.
+    - Distribution Analysis: Skewness and Kurtosis were measured to identify deviations from a normal distribution. Most
+      stock features exhibited positive skewness (approx. 1.04), suggesting a right-leaning tail common in growth stock
 
+- **Volatility and Volume Analysis:**
+-  Trading volumes were analyzed alongside price changes to detect correlations between market activity and price movements.     The analysis revealed that major price shifts often coincided with spikes in trading volume
+
+  ![Trading Volume Over Time](Trading Volume%20over%20Time.jpg)
+*Figure 2: 10-Year historical stock Trading Volume over Time for Google, Meta, and NVIDIA.*
 ## 8. Model Development
 
 ## 9. Results and Evaluation
