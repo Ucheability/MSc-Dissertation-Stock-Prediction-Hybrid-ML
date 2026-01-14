@@ -107,7 +107,29 @@ Before model development, an extensive EDA was conducted to understand the under
 *Figure 3: Heatmap showing the high correlation between price features and trading volume.*
 ## 8. Model Development
 
+-**Model 1: LSTM (Long Short-Term Memory):** Chosen for its ability to remember long-term dependencies, which is essential for stock data where past prices influence future trends.
+    - **Architecture:** Consists of multiple LSTM layers followed by Dropout layers (to prevent overfitting) and a Dense           output layer.
+
+-**Model 2: Random Forest (RF):** An ensemble learning method used to capture non-linear relationships. It was trained using the same technical features to provide a baseline for comparison.
+
+-**Integrated Hybrid Approach:** The model integrates the Sentiment Score (NLP-derived) as a feature alongside historical prices.
+    - The data was split into 80% Training and 20% Testing to ensure the model was validated on unseen data.
+
+    - Optimizer: Adam optimizer was used with Mean Squared Error (MSE) as the loss function to fine-tune the neural network         weights.
+    
 ## 9. Results and Evaluation
+The performance of the hybrid model was evaluated using standard industry metrics. The results demonstrated that integrating Sentiment Analysis significantly improved the model's ability to anticipate market shifts.
+
+- **Accuracy Metrics:** The models were assessed based on Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared (R²) scores.
+
+- **Hybrid Model Performance:** For Google, the hybrid LSTM-RF model achieved an R² score of 0.92, indicating that the model explains 92% of the variance in the stock price.
+
+- **Impact of Sentiment Data:** Standalone LSTM models showed an RMSE of approximately 2.45.
+
+    - Once Sentiment Scores were integrated, the RMSE dropped to 1.85, representing a significant increase in precision.
+
+- **Cross-Company Comparison:** NVIDIA exhibited the highest volatility, yet the model maintained robust performance, proving the hybrid architecture's adaptability across different tech stocks.
+
 
 ## 10. Key Insights
 
