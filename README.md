@@ -93,7 +93,8 @@ Before model development, an extensive EDA was conducted to understand the under
       stock features exhibited positive skewness (approx. 1.04), suggesting a right-leaning tail common in growth stock
 
 - **Volatility and Volume Analysis:**
--  Trading volumes were analyzed alongside price changes to detect correlations between market activity and price movements.     The analysis revealed that major price shifts often coincided with spikes in trading volume
+  - Trading volumes were analyzed alongside price changes to detect correlations between market activity and price
+    movements.The analysis revealed that major price shifts often coincided with spikes in trading volume
 
   ![Volume Over Time](Volume%20over%20Time.jpg)
 *Figure 2: 10-Year historical stock Trading Volume over Time for Google, Meta, and NVIDIA.*
