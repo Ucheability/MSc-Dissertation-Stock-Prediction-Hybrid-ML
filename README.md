@@ -135,9 +135,27 @@ The performance of the hybrid model was evaluated using standard industry metric
 
 ## 10. Key Insights
 
-* **Hybrid Advantage:** Combining LSTM and Random Forest provided more stable predictions.
-* **Sentiment Value:** Sentiment analysis acted as a leading indicator for price shifts.
+* **Synergy Matters:** The integration of LSTM's temporal memory with Random Forest's non-linear processing created a more robust prediction than either model alone.
+* **Sentiment as a Catalyst:** Market sentiment acts as a "leading indicator." Including sentiment data reduced prediction error (RMSE) significantly, especially during volatile market periods.
+* **Model Stability:** The hybrid approach remained stable even for highly volatile stocks like NVIDIA, suggesting it is well-suited for the tech sector.
 * **Robustness:** The model remained accurate across different tech stocks (Google, Meta, NVIDIA).
 ## 11. Limitations
 
+- **Synthetic Sentiment Data:** Due to news archive access restrictions, synthetic sentiment was used to simulate market news, which may not capture the full complexity of real-world "black swan" events.
+- **Compute Intensity:** Training hybrid Deep Learning models requires significant computational resources compared to basic regression models
+  
 ## 12. Recommendations and Future Work
+
+- **Advanced NLP:** Future iterations could use BERT or GPT-based transformers for even deeper contextual understanding of financial news.
+- **Broader Scope:** Expanding the model to include macroeconomic indicators (interest rates, inflation) could further enhance robustness.
+- **Real-time Integration:** Developing a pipeline for real-time news scraping and live stock price updates.
+
+## 13. Conclusion
+This research successfully demonstrated that a **Hybrid Machine Learning approach**, combining the long-term memory of **LSTM** networks with the robust decision-making of **Random Forest**, significantly outperforms traditional single-model architectures for stock price prediction.
+
+**Key Achievements:**
+
+- **Sentiment Integration:** Proved that incorporating NLP-driven sentiment scores as a feature reduces prediction error (MSE) by providing context that numerical data alone lacks.
+- **Robustness across Volatility:** The model maintained high accuracy even for high-volatility stocks like NVIDIA, showing its readiness for real-world market fluctuations.
+- **Methodological Framework:** Established a scalable pipeline for data acquisition, preprocessing, and hybrid modeling that can be applied to other financial sectors.
+Ultimately, while the stock market remains inherently unpredictable, this project shows that the strategic fusion of deep learning and sentiment analysis provides a powerful tool for enhancing the precision of financial forecasting.
