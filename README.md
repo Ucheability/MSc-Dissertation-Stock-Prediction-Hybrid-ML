@@ -1,5 +1,5 @@
 # MSc-Dissertation-Stock-Prediction-Hybrid-ML
-A hybrid Machine Learning model combining LSTM and Random Forest to forecast stock trends for Google, Meta, and NVIDIA, integrated with NLP-driven sentiment analysis
+A hybrid Machine Learning model combining LSTM and Random Forest to forecast stock trends for Google, Meta, and NVIDIA, integrated with NLP-driven sentiment analysis.
 # Forecasting Stock Price Trends Using Sentiment Analysis and Machine Learning
 
 ## 1. Introduction
@@ -10,7 +10,7 @@ The research focuses on three major technology firms—Google (Alphabet Inc.), M
 
 ## 2. Problem Statement
 
-The central challenge in financial forecasting is that stock prices are highly volatile and influenced by a vast array of interconnected factors. Conventional statistical models frequently struggle to capture these intricate, non-linear dependencies, often resulting in inaccurate forecasts. This research addresses the gap by investigating whether combining cutting-edge machine learning techniques with qualitative sentiment analysis can enhance the precision of stock price predictions
+The central challenge in financial forecasting is that stock prices are highly volatile and influenced by a vast array of interconnected factors. Conventional statistical models frequently struggle to capture these intricate, non-linear dependencies, often resulting in inaccurate forecasts. This research addresses the gap by investigating whether combining cutting-edge machine learning techniques with qualitative sentiment analysis can enhance the precision of stock price predictions.
 
 ## 3. Aim and Objectives
 
@@ -62,7 +62,7 @@ The research followed a structured data science lifecycle, integrating quantitat
       importance.
 
 - **Phase 4: Evaluation:**
-    - Models were tested on a separate test set (20% of data) using MSE, RMSE, and R-squared metrics to validate accuracy
+    - Models were tested on a separate test set (20% of data) using MSE, RMSE, and R-squared metrics to validate accuracy.
   
 ## 6. Tools and Technologies
 
@@ -90,14 +90,21 @@ Before model development, an extensive EDA was conducted to understand the under
     - Summary Statistics: Calculated mean, median, and standard deviation to assess data distribution. For instance,
       Google's stock showed a mean closing price of approximately $59.52 with a high standard deviation of 34.63, indicating       significant growth and volatility over the decade.
     - Distribution Analysis: Skewness and Kurtosis were measured to identify deviations from a normal distribution. Most
-      stock features exhibited positive skewness (approx. 1.04), suggesting a right-leaning tail common in growth stock
+      stock features exhibited positive skewness (approx. 1.04), suggesting a right-leaning tail common in growth stock.
 
 - **Volatility and Volume Analysis:**
   - Trading volumes were analyzed alongside price changes to detect correlations between market activity and price
-    movements.The analysis revealed that major price shifts often coincided with spikes in trading volume
+    movements.The analysis revealed that major price shifts often coincided with spikes in trading volume.
 
   ![Volume Over Time](Volume%20over%20Time.jpg)
 *Figure 2: 10-Year historical stock Trading Volume over Time for Google, Meta, and NVIDIA.*
+
+- **Correlation Matrix:**
+    - A heatmap was generated to observe the relationships between features (Open, High, Low, Close, Volume). As expected,
+      price-based features showed near-perfect correlation, while Volume provided a distinct, less correlated signal for the       models.
+
+  ![Correlation Heatmap](Correlation%20Heatmap.jpg)
+*Figure 3: Heatmap showing the high correlation between price features and trading volume.*
 ## 8. Model Development
 
 ## 9. Results and Evaluation
