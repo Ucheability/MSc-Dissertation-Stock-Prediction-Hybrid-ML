@@ -3,7 +3,7 @@ A hybrid Machine Learning model combining LSTM and Random Forest to forecast sto
 # Forecasting Stock Price Trends Using Sentiment Analysis and Machine Learning
 
 ## 🔗 Quick Links
-- [View Python Implementation](Projec_Codes.ipynb)
+- [View Python Implementation](Project_Codes.ipynb)
   
 ## 1. Introduction
 
